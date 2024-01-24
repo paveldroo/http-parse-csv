@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Stakes info:</h2>
+    <ul>
+        {{range .}}
+        <li>Date: {{.Date}}, Open price: {{.Open}}</li>
+        {{end}}
+    </ul>
+
+</body>
+</html>
